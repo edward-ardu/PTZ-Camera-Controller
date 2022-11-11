@@ -200,7 +200,7 @@ def main():
     #open camera
     camera = Camera()
     #open camera preview
-    camera.start_preview()
+    camera.start_preview(4656, 3496)
 
     curses.wrapper(draw_menu, camera, 1)
 
