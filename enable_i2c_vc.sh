@@ -24,5 +24,3 @@ case $USER_INPUT in
     echo "cancel"
 ;;
 esac
-
-        
